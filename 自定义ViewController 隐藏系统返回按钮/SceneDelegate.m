@@ -7,6 +7,7 @@
 
 #import "SceneDelegate.h"
 #import "ViewController.h"
+#import "BaseNavigationViewController.h"
 
 @interface SceneDelegate ()
 
@@ -22,7 +23,7 @@
     
     
     ViewController * view = [[ViewController alloc]init];
-    UINavigationController * navi = [[UINavigationController alloc]initWithRootViewController:view];
+    BaseNavigationViewController * navi = [[BaseNavigationViewController alloc]initWithRootViewController:view];
     self.window.rootViewController = navi;
     
 }

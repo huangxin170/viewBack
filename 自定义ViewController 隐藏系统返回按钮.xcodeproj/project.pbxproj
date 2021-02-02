@@ -16,6 +16,7 @@
 		27D09C1325C3B810007A6235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D09C1225C3B810007A6235 /* main.m */; };
 		27D09C1C25C3B8AC007A6235 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D09C1B25C3B8AC007A6235 /* BaseViewController.m */; };
 		27D09C2025C3B9D4007A6235 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D09C1F25C3B9D4007A6235 /* RootViewController.m */; };
+		27DEEF6425C8FE8B008C32E3 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEEF6325C8FE8B008C32E3 /* BaseNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		27D09C1B25C3B8AC007A6235 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		27D09C1E25C3B9D4007A6235 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		27D09C1F25C3B9D4007A6235 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		27DEEF6225C8FE8B008C32E3 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		27DEEF6325C8FE8B008C32E3 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				27D09C1F25C3B9D4007A6235 /* RootViewController.m */,
 				27D09C1A25C3B8AC007A6235 /* BaseViewController.h */,
 				27D09C1B25C3B8AC007A6235 /* BaseViewController.m */,
+				27DEEF6225C8FE8B008C32E3 /* BaseNavigationViewController.h */,
+				27DEEF6325C8FE8B008C32E3 /* BaseNavigationViewController.m */,
 				27D09C0925C3B80C007A6235 /* Main.storyboard */,
 				27D09C0C25C3B810007A6235 /* Assets.xcassets */,
 				27D09C0E25C3B810007A6235 /* LaunchScreen.storyboard */,
@@ -157,6 +162,7 @@
 			files = (
 				27D09C0825C3B80C007A6235 /* ViewController.m in Sources */,
 				27D09C1C25C3B8AC007A6235 /* BaseViewController.m in Sources */,
+				27DEEF6425C8FE8B008C32E3 /* BaseNavigationViewController.m in Sources */,
 				27D09C2025C3B9D4007A6235 /* RootViewController.m in Sources */,
 				27D09C0225C3B80C007A6235 /* AppDelegate.m in Sources */,
 				27D09C1325C3B810007A6235 /* main.m in Sources */,

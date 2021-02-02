@@ -16,25 +16,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //不是栈中第一个页面的时候显示自定义的返回按钮
-    if (self.navigationController.viewControllers.count > 1) {
-        UIBarButtonItem * backitem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"backarrow"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
-        self.navigationItem.leftBarButtonItem = backitem;
-    }
-    //实现系统的滑动返回手势
-    self.navigationController.interactivePopGestureRecognizer.delegate = (id)self;
-}
-//判断如果已经回到栈顶了禁用滑动手势
--(void)viewWillAppear:(BOOL)animated{
-    if (self.navigationController.viewControllers.count > 1) {
-        self.navigationController.interactivePopGestureRecognizer.enabled = YES;
-    }else{
-        self.navigationController.interactivePopGestureRecognizer.enabled = NO;
-    }
-}
-//返回实现
--(void)back{
-    [self.navigationController popViewControllerAnimated:YES];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    
+    
 }
 /*
 #pragma mark - Navigation
