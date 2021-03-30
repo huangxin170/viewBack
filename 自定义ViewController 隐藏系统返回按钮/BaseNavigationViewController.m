@@ -23,7 +23,7 @@
 -(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
     [super pushViewController:viewController animated:animated];
     //push的时候自定义左侧返回按钮
-    if (self.topViewController) {
+    if (self.topViewController && self.viewControllers.count > 1) {
         UIBarButtonItem * backitem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"backarrow"] style:UIBarButtonItemStylePlain target:self action:@selector(back)];
         viewController.navigationItem.leftBarButtonItem = backitem;
     }

@@ -16,7 +16,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    UIButton * button = [[UIButton alloc]initWithFrame:CGRectMake(0, 100, 100, 100)];
+    button.backgroundColor = [UIColor redColor];
+    [button setTitle:@"跳转下一页" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(nextPush) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+-(void)nextPush{
+    RootViewController * root = [[RootViewController alloc]init];
+    [self.navigationController pushViewController:root animated:YES];
 }
 
 /*
