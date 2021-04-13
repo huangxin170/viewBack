@@ -6,8 +6,7 @@
 //
 
 #import "SceneDelegate.h"
-#import "ViewController.h"
-#import "BaseNavigationViewController.h"
+#import "BaseTabBarController.h"
 
 @interface SceneDelegate ()
 
@@ -22,9 +21,9 @@
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
     
     
-    ViewController * view = [[ViewController alloc]init];
-    BaseNavigationViewController * navi = [[BaseNavigationViewController alloc]initWithRootViewController:view];
-    self.window.rootViewController = navi;
+
+    BaseTabBarController * tabbar = [[BaseTabBarController alloc]init];
+    self.window.rootViewController = tabbar;
     
 }
 

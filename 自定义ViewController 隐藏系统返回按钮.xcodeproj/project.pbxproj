@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		27D09C0225C3B80C007A6235 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D09C0125C3B80C007A6235 /* AppDelegate.m */; };
 		27D09C0525C3B80C007A6235 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D09C0425C3B80C007A6235 /* SceneDelegate.m */; };
-		27D09C0825C3B80C007A6235 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D09C0725C3B80C007A6235 /* ViewController.m */; };
 		27D09C0B25C3B80C007A6235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D09C0925C3B80C007A6235 /* Main.storyboard */; };
 		27D09C0D25C3B810007A6235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D09C0C25C3B810007A6235 /* Assets.xcassets */; };
 		27D09C1025C3B810007A6235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D09C0E25C3B810007A6235 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,10 @@
 		27D09C1C25C3B8AC007A6235 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D09C1B25C3B8AC007A6235 /* BaseViewController.m */; };
 		27D09C2025C3B9D4007A6235 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D09C1F25C3B9D4007A6235 /* RootViewController.m */; };
 		27DEEF6425C8FE8B008C32E3 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEEF6325C8FE8B008C32E3 /* BaseNavigationViewController.m */; };
+		27FA4110262531A900150585 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FA410F262531A900150585 /* BaseTabBarController.m */; };
+		27FA4119262532C300150585 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FA4118262532C300150585 /* HomeViewController.m */; };
+		27FA411D262532CB00150585 /* MsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FA411C262532CB00150585 /* MsgViewController.m */; };
+		27FA4121262532D200150585 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FA4120262532D200150585 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +28,6 @@
 		27D09C0125C3B80C007A6235 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		27D09C0325C3B80C007A6235 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		27D09C0425C3B80C007A6235 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		27D09C0625C3B80C007A6235 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		27D09C0725C3B80C007A6235 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		27D09C0A25C3B80C007A6235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27D09C0C25C3B810007A6235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27D09C0F25C3B810007A6235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +39,14 @@
 		27D09C1F25C3B9D4007A6235 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		27DEEF6225C8FE8B008C32E3 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
 		27DEEF6325C8FE8B008C32E3 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		27FA410E262531A900150585 /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		27FA410F262531A900150585 /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		27FA4117262532C300150585 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		27FA4118262532C300150585 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		27FA411B262532CB00150585 /* MsgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgViewController.h; sourceTree = "<group>"; };
+		27FA411C262532CB00150585 /* MsgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgViewController.m; sourceTree = "<group>"; };
+		27FA411F262532D200150585 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		27FA4120262532D200150585 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,18 +79,12 @@
 		27D09BFF25C3B80C007A6235 /* 自定义ViewController 隐藏系统返回按钮 */ = {
 			isa = PBXGroup;
 			children = (
+				27FA41132625324700150585 /* ViewControllers */,
+				27FA41122625322700150585 /* BaseViewController */,
 				27D09C0025C3B80C007A6235 /* AppDelegate.h */,
 				27D09C0125C3B80C007A6235 /* AppDelegate.m */,
 				27D09C0325C3B80C007A6235 /* SceneDelegate.h */,
 				27D09C0425C3B80C007A6235 /* SceneDelegate.m */,
-				27D09C0625C3B80C007A6235 /* ViewController.h */,
-				27D09C0725C3B80C007A6235 /* ViewController.m */,
-				27D09C1E25C3B9D4007A6235 /* RootViewController.h */,
-				27D09C1F25C3B9D4007A6235 /* RootViewController.m */,
-				27D09C1A25C3B8AC007A6235 /* BaseViewController.h */,
-				27D09C1B25C3B8AC007A6235 /* BaseViewController.m */,
-				27DEEF6225C8FE8B008C32E3 /* BaseNavigationViewController.h */,
-				27DEEF6325C8FE8B008C32E3 /* BaseNavigationViewController.m */,
 				27D09C0925C3B80C007A6235 /* Main.storyboard */,
 				27D09C0C25C3B810007A6235 /* Assets.xcassets */,
 				27D09C0E25C3B810007A6235 /* LaunchScreen.storyboard */,
@@ -89,6 +92,42 @@
 				27D09C1225C3B810007A6235 /* main.m */,
 			);
 			path = "自定义ViewController 隐藏系统返回按钮";
+			sourceTree = "<group>";
+		};
+		27FA41122625322700150585 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27D09C1A25C3B8AC007A6235 /* BaseViewController.h */,
+				27D09C1B25C3B8AC007A6235 /* BaseViewController.m */,
+				27DEEF6225C8FE8B008C32E3 /* BaseNavigationViewController.h */,
+				27DEEF6325C8FE8B008C32E3 /* BaseNavigationViewController.m */,
+				27FA410E262531A900150585 /* BaseTabBarController.h */,
+				27FA410F262531A900150585 /* BaseTabBarController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		27FA41132625324700150585 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				27FA41152625329100150585 /* RootViews */,
+				27FA4117262532C300150585 /* HomeViewController.h */,
+				27FA4118262532C300150585 /* HomeViewController.m */,
+				27FA411B262532CB00150585 /* MsgViewController.h */,
+				27FA411C262532CB00150585 /* MsgViewController.m */,
+				27FA411F262532D200150585 /* MyViewController.h */,
+				27FA4120262532D200150585 /* MyViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		27FA41152625329100150585 /* RootViews */ = {
+			isa = PBXGroup;
+			children = (
+				27D09C1E25C3B9D4007A6235 /* RootViewController.h */,
+				27D09C1F25C3B9D4007A6235 /* RootViewController.m */,
+			);
+			path = RootViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,13 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D09C0825C3B80C007A6235 /* ViewController.m in Sources */,
 				27D09C1C25C3B8AC007A6235 /* BaseViewController.m in Sources */,
 				27DEEF6425C8FE8B008C32E3 /* BaseNavigationViewController.m in Sources */,
 				27D09C2025C3B9D4007A6235 /* RootViewController.m in Sources */,
+				27FA4110262531A900150585 /* BaseTabBarController.m in Sources */,
+				27FA4121262532D200150585 /* MyViewController.m in Sources */,
 				27D09C0225C3B80C007A6235 /* AppDelegate.m in Sources */,
 				27D09C1325C3B810007A6235 /* main.m in Sources */,
+				27FA411D262532CB00150585 /* MsgViewController.m in Sources */,
 				27D09C0525C3B80C007A6235 /* SceneDelegate.m in Sources */,
+				27FA4119262532C300150585 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
